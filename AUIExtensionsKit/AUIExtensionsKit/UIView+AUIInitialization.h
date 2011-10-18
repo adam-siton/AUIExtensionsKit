@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
-@interface UIView_AUIInitialization : NSObject {
-    
-}
+@interface UIView (AUIInitialization)
+
++(UIView *) viewWithNibName:(NSString *)nibName owner:(NSObject *)owner;
 
 @end

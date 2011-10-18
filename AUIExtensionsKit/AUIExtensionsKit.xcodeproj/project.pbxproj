@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5A0A84144D701E002F1054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A83144D701E002F1054 /* UIKit.framework */; };
+		EE5A0A86144D701E002F1054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A85144D701E002F1054 /* Foundation.framework */; };
+		EE5A0A88144D701E002F1054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A87144D701E002F1054 /* CoreGraphics.framework */; };
+		EE5A0A8E144D701E002F1054 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE5A0A8C144D701E002F1054 /* InfoPlist.strings */; };
+		EE5A0A91144D701E002F1054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0A90144D701E002F1054 /* main.m */; };
+		EE5A0A9E144D701E002F1054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A83144D701E002F1054 /* UIKit.framework */; };
+		EE5A0A9F144D701E002F1054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A85144D701E002F1054 /* Foundation.framework */; };
+		EE5A0AA0144D701E002F1054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A87144D701E002F1054 /* CoreGraphics.framework */; };
+		EE5A0AA8144D701E002F1054 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE5A0AA6144D701E002F1054 /* InfoPlist.strings */; };
+		EE5A0AAB144D701E002F1054 /* AUIExtensionsKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EE5A0AAA144D701E002F1054 /* AUIExtensionsKitTests.h */; };
+		EE5A0AAD144D701E002F1054 /* AUIExtensionsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0AAC144D701E002F1054 /* AUIExtensionsKitTests.m */; };
+		EE5A0AB9144D7597002F1054 /* UIView+AUIInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0AB8144D7597002F1054 /* UIView+AUIInitialization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE5A0AA1144D701E002F1054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE5A0A76144D701E002F1054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5A0A7E144D701E002F1054;
+			remoteInfo = AUIExtensionsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE5A0A7F144D701E002F1054 /* AUIExtensionsKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUIExtensionsKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5A0A83144D701E002F1054 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE5A0A85144D701E002F1054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE5A0A87144D701E002F1054 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE5A0A8B144D701E002F1054 /* AUIExtensionsKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AUIExtensionsKit-Info.plist"; sourceTree = "<group>"; };
+		EE5A0A8D144D701E002F1054 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE5A0A8F144D701E002F1054 /* AUIExtensionsKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AUIExtensionsKit-Prefix.pch"; sourceTree = "<group>"; };
+		EE5A0A90144D701E002F1054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE5A0A9D144D701E002F1054 /* AUIExtensionsKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUIExtensionsKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5A0AA5144D701E002F1054 /* AUIExtensionsKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AUIExtensionsKitTests-Info.plist"; sourceTree = "<group>"; };
+		EE5A0AA7144D701E002F1054 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE5A0AA9144D701E002F1054 /* AUIExtensionsKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AUIExtensionsKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		EE5A0AAA144D701E002F1054 /* AUIExtensionsKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUIExtensionsKitTests.h; sourceTree = "<group>"; };
+		EE5A0AAC144D701E002F1054 /* AUIExtensionsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUIExtensionsKitTests.m; sourceTree = "<group>"; };
+		EE5A0AB7144D7597002F1054 /* UIView+AUIInitialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AUIInitialization.h"; sourceTree = "<group>"; };
+		EE5A0AB8144D7597002F1054 /* UIView+AUIInitialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AUIInitialization.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE5A0A7C144D701E002F1054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5A0A84144D701E002F1054 /* UIKit.framework in Frameworks */,
+				EE5A0A86144D701E002F1054 /* Foundation.framework in Frameworks */,
+				EE5A0A88144D701E002F1054 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5A0A99144D701E002F1054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5A0A9E144D701E002F1054 /* UIKit.framework in Frameworks */,
+				EE5A0A9F144D701E002F1054 /* Foundation.framework in Frameworks */,
+				EE5A0AA0144D701E002F1054 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE5A0A74144D701E002F1054 = {
+			isa = PBXGroup;
+			children = (
+				EE5A0A89144D701E002F1054 /* AUIExtensionsKit */,
+				EE5A0AA3144D701E002F1054 /* AUIExtensionsKitTests */,
+				EE5A0A82144D701E002F1054 /* Frameworks */,
+				EE5A0A80144D701E002F1054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE5A0A80144D701E002F1054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0A7F144D701E002F1054 /* AUIExtensionsKit.app */,
+				EE5A0A9D144D701E002F1054 /* AUIExtensionsKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE5A0A82144D701E002F1054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0A83144D701E002F1054 /* UIKit.framework */,
+				EE5A0A85144D701E002F1054 /* Foundation.framework */,
+				EE5A0A87144D701E002F1054 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE5A0A89144D701E002F1054 /* AUIExtensionsKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0AB6144D7271002F1054 /* Initialization */,
+				EE5A0A8A144D701E002F1054 /* Supporting Files */,
+			);
+			path = AUIExtensionsKit;
+			sourceTree = "<group>";
+		};
+		EE5A0A8A144D701E002F1054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0A8B144D701E002F1054 /* AUIExtensionsKit-Info.plist */,
+				EE5A0A8C144D701E002F1054 /* InfoPlist.strings */,
+				EE5A0A8F144D701E002F1054 /* AUIExtensionsKit-Prefix.pch */,
+				EE5A0A90144D701E002F1054 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE5A0AA3144D701E002F1054 /* AUIExtensionsKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0AAA144D701E002F1054 /* AUIExtensionsKitTests.h */,
+				EE5A0AAC144D701E002F1054 /* AUIExtensionsKitTests.m */,
+				EE5A0AA4144D701E002F1054 /* Supporting Files */,
+			);
+			path = AUIExtensionsKitTests;
+			sourceTree = "<group>";
+		};
+		EE5A0AA4144D701E002F1054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0AA5144D701E002F1054 /* AUIExtensionsKitTests-Info.plist */,
+				EE5A0AA6144D701E002F1054 /* InfoPlist.strings */,
+				EE5A0AA9144D701E002F1054 /* AUIExtensionsKitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE5A0AB6144D7271002F1054 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0AB7144D7597002F1054 /* UIView+AUIInitialization.h */,
+				EE5A0AB8144D7597002F1054 /* UIView+AUIInitialization.m */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE5A0A7E144D701E002F1054 /* AUIExtensionsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5A0AB0144D701E002F1054 /* Build configuration list for PBXNativeTarget "AUIExtensionsKit" */;
+			buildPhases = (
+				EE5A0A7B144D701E002F1054 /* Sources */,
+				EE5A0A7C144D701E002F1054 /* Frameworks */,
+				EE5A0A7D144D701E002F1054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUIExtensionsKit;
+			productName = AUIExtensionsKit;
+			productReference = EE5A0A7F144D701E002F1054 /* AUIExtensionsKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE5A0A9C144D701E002F1054 /* AUIExtensionsKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5A0AB3144D701E002F1054 /* Build configuration list for PBXNativeTarget "AUIExtensionsKitTests" */;
+			buildPhases = (
+				EE5A0A98144D701E002F1054 /* Sources */,
+				EE5A0A99144D701E002F1054 /* Frameworks */,
+				EE5A0A9A144D701E002F1054 /* Resources */,
+				EE5A0A9B144D701E002F1054 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE5A0AA2144D701E002F1054 /* PBXTargetDependency */,
+			);
+			name = AUIExtensionsKitTests;
+			productName = AUIExtensionsKitTests;
+			productReference = EE5A0A9D144D701E002F1054 /* AUIExtensionsKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE5A0A76144D701E002F1054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Any.do;
+			};
+			buildConfigurationList = EE5A0A79144D701E002F1054 /* Build configuration list for PBXProject "AUIExtensionsKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE5A0A74144D701E002F1054;
+			productRefGroup = EE5A0A80144D701E002F1054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE5A0A7E144D701E002F1054 /* AUIExtensionsKit */,
+				EE5A0A9C144D701E002F1054 /* AUIExtensionsKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE5A0A7D144D701E002F1054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5A0A8E144D701E002F1054 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5A0A9A144D701E002F1054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5A0AA8144D701E002F1054 /* InfoPlist.strings in Resources */,
+				EE5A0AAB144D701E002F1054 /* AUIExtensionsKitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE5A0A9B144D701E002F1054 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE5A0A7B144D701E002F1054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5A0A91144D701E002F1054 /* main.m in Sources */,
+				EE5A0AB9144D7597002F1054 /* UIView+AUIInitialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5A0A98144D701E002F1054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5A0AAD144D701E002F1054 /* AUIExtensionsKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE5A0AA2144D701E002F1054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5A0A7E144D701E002F1054 /* AUIExtensionsKit */;
+			targetProxy = EE5A0AA1144D701E002F1054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE5A0A8C144D701E002F1054 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5A0A8D144D701E002F1054 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE5A0AA6144D701E002F1054 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5A0AA7144D701E002F1054 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE5A0AAE144D701E002F1054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE5A0AAF144D701E002F1054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EE5A0AB1144D701E002F1054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUIExtensionsKit/AUIExtensionsKit-Prefix.pch";
+				INFOPLIST_FILE = "AUIExtensionsKit/AUIExtensionsKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE5A0AB2144D701E002F1054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUIExtensionsKit/AUIExtensionsKit-Prefix.pch";
+				INFOPLIST_FILE = "AUIExtensionsKit/AUIExtensionsKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE5A0AB4144D701E002F1054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AUIExtensionsKit.app/AUIExtensionsKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUIExtensionsKitTests/AUIExtensionsKitTests-Prefix.pch";
+				INFOPLIST_FILE = "AUIExtensionsKitTests/AUIExtensionsKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EE5A0AB5144D701E002F1054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AUIExtensionsKit.app/AUIExtensionsKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AUIExtensionsKitTests/AUIExtensionsKitTests-Prefix.pch";
+				INFOPLIST_FILE = "AUIExtensionsKitTests/AUIExtensionsKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE5A0A79144D701E002F1054 /* Build configuration list for PBXProject "AUIExtensionsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5A0AAE144D701E002F1054 /* Debug */,
+				EE5A0AAF144D701E002F1054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5A0AB0144D701E002F1054 /* Build configuration list for PBXNativeTarget "AUIExtensionsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5A0AB1144D701E002F1054 /* Debug */,
+				EE5A0AB2144D701E002F1054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE5A0AB3144D701E002F1054 /* Build configuration list for PBXNativeTarget "AUIExtensionsKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5A0AB4144D701E002F1054 /* Debug */,
+				EE5A0AB5144D701E002F1054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE5A0A76144D701E002F1054 /* Project object */;
+}
