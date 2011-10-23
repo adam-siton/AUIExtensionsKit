@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE09A5FF1454257A00B218E2 /* NSData+AUIExtensionsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09A5FE1454257A00B218E2 /* NSData+AUIExtensionsKit.m */; };
+		EE09A6081454258C00B218E2 /* NSDate+AUIExtensionsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09A6011454258C00B218E2 /* NSDate+AUIExtensionsKit.m */; };
+		EE09A60A1454258C00B218E2 /* NSString+AUIExtensionsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09A6051454258C00B218E2 /* NSString+AUIExtensionsKit.m */; };
+		EE09A60B1454258C00B218E2 /* NSArray+AUIExtensionsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09A6071454258C00B218E2 /* NSArray+AUIExtensionsKit.m */; };
+		EE09A60E14542D9E00B218E2 /* NSURL+AUIExtensionsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09A60D14542D9E00B218E2 /* NSURL+AUIExtensionsKit.m */; };
+		EE09A61214542FDE00B218E2 /* CommonGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09A61114542FDE00B218E2 /* CommonGeometry.m */; };
 		EE5A0A84144D701E002F1054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A83144D701E002F1054 /* UIKit.framework */; };
 		EE5A0A86144D701E002F1054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A85144D701E002F1054 /* Foundation.framework */; };
 		EE5A0A88144D701E002F1054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A0A87144D701E002F1054 /* CoreGraphics.framework */; };
@@ -18,7 +24,7 @@
 		EE5A0AA8144D701E002F1054 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE5A0AA6144D701E002F1054 /* InfoPlist.strings */; };
 		EE5A0AAB144D701E002F1054 /* AUIExtensionsKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EE5A0AAA144D701E002F1054 /* AUIExtensionsKitTests.h */; };
 		EE5A0AAD144D701E002F1054 /* AUIExtensionsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0AAC144D701E002F1054 /* AUIExtensionsKitTests.m */; };
-		EE5A0AB9144D7597002F1054 /* UIView+AUIInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0AB8144D7597002F1054 /* UIView+AUIInitialization.m */; };
+		EE5A0AB9144D7597002F1054 /* UIView+AUExtensionsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0AB8144D7597002F1054 /* UIView+AUExtensionsKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE09A5F8145424D500B218E2 /* AUIExtensionsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUIExtensionsKit.h; sourceTree = "<group>"; };
+		EE09A5FD1454257A00B218E2 /* NSData+AUIExtensionsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AUIExtensionsKit.h"; sourceTree = "<group>"; };
+		EE09A5FE1454257A00B218E2 /* NSData+AUIExtensionsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AUIExtensionsKit.m"; sourceTree = "<group>"; };
+		EE09A6001454258C00B218E2 /* NSDate+AUIExtensionsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AUIExtensionsKit.h"; sourceTree = "<group>"; };
+		EE09A6011454258C00B218E2 /* NSDate+AUIExtensionsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AUIExtensionsKit.m"; sourceTree = "<group>"; };
+		EE09A6041454258C00B218E2 /* NSString+AUIExtensionsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AUIExtensionsKit.h"; sourceTree = "<group>"; };
+		EE09A6051454258C00B218E2 /* NSString+AUIExtensionsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AUIExtensionsKit.m"; sourceTree = "<group>"; };
+		EE09A6061454258C00B218E2 /* NSArray+AUIExtensionsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AUIExtensionsKit.h"; sourceTree = "<group>"; };
+		EE09A6071454258C00B218E2 /* NSArray+AUIExtensionsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AUIExtensionsKit.m"; sourceTree = "<group>"; };
+		EE09A60C14542D9E00B218E2 /* NSURL+AUIExtensionsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+AUIExtensionsKit.h"; sourceTree = "<group>"; };
+		EE09A60D14542D9E00B218E2 /* NSURL+AUIExtensionsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+AUIExtensionsKit.m"; sourceTree = "<group>"; };
+		EE09A61014542FDE00B218E2 /* CommonGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonGeometry.h; sourceTree = "<group>"; };
+		EE09A61114542FDE00B218E2 /* CommonGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonGeometry.m; sourceTree = "<group>"; };
 		EE5A0A7F144D701E002F1054 /* AUIExtensionsKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUIExtensionsKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5A0A83144D701E002F1054 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE5A0A85144D701E002F1054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,8 +65,8 @@
 		EE5A0AA9144D701E002F1054 /* AUIExtensionsKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AUIExtensionsKitTests-Prefix.pch"; sourceTree = "<group>"; };
 		EE5A0AAA144D701E002F1054 /* AUIExtensionsKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUIExtensionsKitTests.h; sourceTree = "<group>"; };
 		EE5A0AAC144D701E002F1054 /* AUIExtensionsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUIExtensionsKitTests.m; sourceTree = "<group>"; };
-		EE5A0AB7144D7597002F1054 /* UIView+AUIInitialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AUIInitialization.h"; sourceTree = "<group>"; };
-		EE5A0AB8144D7597002F1054 /* UIView+AUIInitialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AUIInitialization.m"; sourceTree = "<group>"; };
+		EE5A0AB7144D7597002F1054 /* UIView+AUExtensionsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AUExtensionsKit.h"; sourceTree = "<group>"; };
+		EE5A0AB8144D7597002F1054 /* UIView+AUExtensionsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AUExtensionsKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +93,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE09A5FC1454252B00B218E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE09A6001454258C00B218E2 /* NSDate+AUIExtensionsKit.h */,
+				EE09A6011454258C00B218E2 /* NSDate+AUIExtensionsKit.m */,
+				EE09A6041454258C00B218E2 /* NSString+AUIExtensionsKit.h */,
+				EE09A6051454258C00B218E2 /* NSString+AUIExtensionsKit.m */,
+				EE09A6061454258C00B218E2 /* NSArray+AUIExtensionsKit.h */,
+				EE09A6071454258C00B218E2 /* NSArray+AUIExtensionsKit.m */,
+				EE09A5FD1454257A00B218E2 /* NSData+AUIExtensionsKit.h */,
+				EE09A5FE1454257A00B218E2 /* NSData+AUIExtensionsKit.m */,
+				EE5A0AB7144D7597002F1054 /* UIView+AUExtensionsKit.h */,
+				EE5A0AB8144D7597002F1054 /* UIView+AUExtensionsKit.m */,
+				EE09A60C14542D9E00B218E2 /* NSURL+AUIExtensionsKit.h */,
+				EE09A60D14542D9E00B218E2 /* NSURL+AUIExtensionsKit.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EE09A60F14542FCC00B218E2 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				EE09A61014542FDE00B218E2 /* CommonGeometry.h */,
+				EE09A61114542FDE00B218E2 /* CommonGeometry.m */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
 		EE5A0A74144D701E002F1054 = {
 			isa = PBXGroup;
 			children = (
@@ -106,8 +153,10 @@
 		EE5A0A89144D701E002F1054 /* AUIExtensionsKit */ = {
 			isa = PBXGroup;
 			children = (
-				EE5A0AB6144D7271002F1054 /* Initialization */,
+				EE09A60F14542FCC00B218E2 /* Macros */,
+				EE09A5FC1454252B00B218E2 /* Extensions */,
 				EE5A0A8A144D701E002F1054 /* Supporting Files */,
+				EE09A5F8145424D500B218E2 /* AUIExtensionsKit.h */,
 			);
 			path = AUIExtensionsKit;
 			sourceTree = "<group>";
@@ -141,15 +190,6 @@
 				EE5A0AA9144D701E002F1054 /* AUIExtensionsKitTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EE5A0AB6144D7271002F1054 /* Initialization */ = {
-			isa = PBXGroup;
-			children = (
-				EE5A0AB7144D7597002F1054 /* UIView+AUIInitialization.h */,
-				EE5A0AB8144D7597002F1054 /* UIView+AUIInitialization.m */,
-			);
-			name = Initialization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +299,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5A0A91144D701E002F1054 /* main.m in Sources */,
-				EE5A0AB9144D7597002F1054 /* UIView+AUIInitialization.m in Sources */,
+				EE5A0AB9144D7597002F1054 /* UIView+AUExtensionsKit.m in Sources */,
+				EE09A5FF1454257A00B218E2 /* NSData+AUIExtensionsKit.m in Sources */,
+				EE09A6081454258C00B218E2 /* NSDate+AUIExtensionsKit.m in Sources */,
+				EE09A60A1454258C00B218E2 /* NSString+AUIExtensionsKit.m in Sources */,
+				EE09A60B1454258C00B218E2 /* NSArray+AUIExtensionsKit.m in Sources */,
+				EE09A60E14542D9E00B218E2 /* NSURL+AUIExtensionsKit.m in Sources */,
+				EE09A61214542FDE00B218E2 /* CommonGeometry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +470,7 @@
 				EE5A0AB2144D701E002F1054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE5A0AB3144D701E002F1054 /* Build configuration list for PBXNativeTarget "AUIExtensionsKitTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +479,7 @@
 				EE5A0AB5144D701E002F1054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

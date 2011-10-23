@@ -3,7 +3,6 @@
 //  AUIExtensionsKit
 //
 //  Created by Adam Siton on 10/18/11.
-//  Copyright 2011 Any.do. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
